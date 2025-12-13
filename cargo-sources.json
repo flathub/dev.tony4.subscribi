@@ -1846,6 +1846,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/detect-desktop-environment/detect-desktop-environment-1.2.0.crate",
+        "sha256": "ff7f16599c3ba6b4ab9a3195bcd9413a7ee8d51e7651f3e9efd6a5db5315008d",
+        "dest": "cargo/vendor/detect-desktop-environment-1.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ff7f16599c3ba6b4ab9a3195bcd9413a7ee8d51e7651f3e9efd6a5db5315008d\", \"files\": {}}",
+        "dest": "cargo/vendor/detect-desktop-environment-1.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/diesel/diesel-2.3.3.crate",
         "sha256": "5e7624a3bb9fffd82fff016be9a7f163d20e5a89eb8d28f9daaa6b30fff37500",
         "dest": "cargo/vendor/diesel-2.3.3"

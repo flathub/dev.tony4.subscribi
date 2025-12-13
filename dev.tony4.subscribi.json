@@ -14,6 +14,7 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--device=dri",
+    "--filesystem=xdg-config/cosmic:rw",
     "--talk-name=com.system76.CosmicSettingsDaemon"
   ],
   "build-options": {
@@ -40,8 +41,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/Tony4dev/subscribi.git",
-          "tag": "1.0.0",
-          "commit": "79deacf24956a894eef15331f01416e3d67b4586"
+          "tag": "1.0.1",
+          "commit": "6279c4e47a3f293edac79ee77e6608a4d7c3c136"
         },
         "cargo-sources.json"
       ]
